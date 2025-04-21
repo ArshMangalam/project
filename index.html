@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <!-- <li><a href="#experience" class="nav-link">Experience</a></li> -->
+        <!-- <li><a href="#achievements" class="nav-link">Achievements</a></li> -->
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="animated-background">
+        <div class="particle"></div>
+        <div class="particle square"></div>
+        <div class="particle triangle"></div>
+        <div class="particle"></div>
+        <div class="particle square"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="fade-in">Hi, I'm <span class="highlight">Arsh Mangalam</span></h1>
+        <p class="tagline fade-in">Computer Science Engineer & Data Analyst</p>
+        <div class="hero-buttons fade-in">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+      <div class="section-header reveal">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image reveal">
+          <div class="img-container">
+            <img src="https://i.pinimg.com/736x/58/4c/3f/584c3fee905f6a0229684bd09461a399.jpg">
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h3>Who am I?</h3>
+          <p>I'm a passionate Computer Science engineer with a focus on web development and data analysis. I love creating beautiful, functional websites and applications that are fun to use and solves real-world problems.</p>
+          <p>When I'm not coding, you can find me travelling to places, playing video games, or exploring new food places around the city.</p>
+          <div class="about-details">
+            <div class="detail">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Computer Science, Lovely Professional University</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Bihar, Patna</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-envelope"></i>
+              <span>mangalamarsh@gmail.com</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary resume-btn" download>Download Resume <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+      <div class="section-header reveal">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-container">
+        <div class="technical-skills reveal">
+          <h3>Technical Skills</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>HTML/CSS</p>
+              <p>70%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>JavaScript</p>
+              <p>85%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>React</p>
+              <p>40%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="40"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Python</p>
+              <p>75%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <p>Graphics Designing</p>
+              <p>70%</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="soft-skills reveal">
+          <h3>Soft Skills</h3>
+          <div class="soft-skill">
+            <div class="soft-skill-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="soft-skill-text">
+              <h4>Teamwork</h4>
+              <p>Collaborate effectively with diverse teams</p>
+            </div>
+          </div>
+          <div class="soft-skill">
+            <div class="soft-skill-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="soft-skill-text">
+              <h4>Problem Solving</h4>
+              <p>Analytical thinker with creative solutions</p>
+            </div>
+          </div>
+          <div class="soft-skill">
+            <div class="soft-skill-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <div class="soft-skill-text">
+              <h4>Communication</h4>
+              <p>Clear and concise verbal and written skills</p>
+            </div>
+          </div>
+          <div class="soft-skill">
+            <div class="soft-skill-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="soft-skill-text">
+              <h4>Time Management</h4>
+              <p>Organized and efficient task prioritization</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+      <div class="section-header reveal">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="app">Mobile App</button>
+        <button class="filter-btn" data-filter="design">UI/UX</button>
+      </div> -->
+      <div class="projects-grid">
+        <div class="project-card reveal" data-category="web">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="E-commerce Website">
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Platform</h3>
+            <p>A fully responsive e-commerce website with product filtering, cart management, and secure checkout.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="app">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="Mobile App">
+          </div>
+          <div class="project-content">
+            <h3>Fitness Tracker App</h3>
+            <p>A mobile application that tracks workouts, nutrition, and provides personalized fitness plans.</p>
+            <div class="project-tech">
+              <span>React Native</span>
+              <span>Firebase</span>
+              <span>Node.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="design">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="UI/UX Design">
+          </div>
+          <div class="project-content">
+            <h3>Banking Dashboard Redesign</h3>
+            <p>A modern UI redesign of a banking dashboard with improved usability and accessibility.</p>
+            <div class="project-tech">
+              <span>Figma</span>
+              <span>Adobe XD</span>
+              <span>Sketch</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="web">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="Weather App">
+          </div>
+          <div class="project-content">
+            <h3>Weather Forecast App</h3>
+            <p>A weather application that provides real-time forecasts with beautiful visualizations.</p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section
+    <section id="experience" class="experience section-padding">
+      <div class="section-header reveal">
+        <h2>My Experience</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">
+            <h3>2023 - Present</h3>
+          </div>
+          <div class="timeline-content">
+            <h3>Front-End Developer Intern</h3>
+            <h4>Tech Innovations Inc.</h4>
+            <p>Developed and maintained responsive websites for multiple clients using HTML, CSS, and JavaScript. Collaborated with back-end developers to integrate front-end components with APIs.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">
+            <h3>2022 - 2023</h3>
+          </div>
+          <div class="timeline-content">
+            <h3>UI/UX Design Intern</h3>
+            <h4>Creative Solutions Co.</h4>
+            <p>Created wireframes and prototypes for mobile applications. Conducted user research and usability testing to improve the user experience.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">
+            <h3>2021 - 2022</h3>
+          </div>
+          <div class="timeline-content">
+            <h3>Student Research Assistant</h3>
+            <h4>Stanford University</h4>
+            <p>Assisted professors with research on human-computer interaction. Developed and conducted experiments to analyze user behavior with different interface designs.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">
+            <h3>2020 - 2021</h3>
+          </div>
+          <div class="timeline-content">
+            <h3>Freelance Web Developer</h3>
+            <h4>Self-Employed</h4>
+            <p>Designed and developed websites for small businesses and individuals. Managed client relations and project timelines effectively.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    Achievements Section
+    <section id="achievements" class="achievements section-padding">
+      <div class="section-header reveal">
+        <h2>Achievements</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-text">
+            <h3>Hackathon Winner</h3>
+            <p>1st place at Stanford Tech Hackathon 2023 for developing an AI-powered accessibility tool.</p>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="achievement-text">
+            <h3>AWS Certified Developer</h3>
+            <p>Achieved AWS Developer Associate certification in 2022.</p>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="achievement-text">
+            <h3>Dean's List</h3>
+            <p>Recognized on the Dean's List for academic excellence for 6 consecutive semesters.</p>
+          </div>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="achievement-text">
+            <h3>Google CodeJam Finalist</h3>
+            <p>Reached the finals of Google CodeJam 2021, ranking in the top 100 globally.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+      <div class="section-header reveal">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>mangalamarsh@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 7488312476</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Bihar, India</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <h3>Send Me a Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h2>Arsh Mangalam</h2>
+        <p>Computer Science Engineer & Data Analyst</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-nav">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <!-- <li><a href="#achievements">Achievements</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Social Media</h3>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Arsh Mangalam. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
